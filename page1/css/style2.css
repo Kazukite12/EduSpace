@@ -156,13 +156,3 @@ body {
     transition: 0.5s;
 }
 
-@media (max-width: 480px) {
-    .astronot {
-        display: none;
-    }
-
-    #hero p {
-        font-size: 18px;
-        margin-top: 50%;
-    }
-
