@@ -1,0 +1,43 @@
+
+body {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1028814017/thumb/1.jpg?ip=x480);
+    font-family: "poppins";
+}
+
+#creator .container {
+    margin-top: 10%;
+}
+
+#creator h1 {
+    font-family: "poppins";
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+#creator p {
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar Style */
+
+.navbar {
+    z-index: 3;
+}
+
+.navbar-brand {
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.nav-link {
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 22px;
+}
