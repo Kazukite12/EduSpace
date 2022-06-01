@@ -41,3 +41,13 @@ body {
     font-weight: 700;
     font-size: 22px;
 }
+
+@media screen and (max-width : 480px) {
+    #creator p {
+        font-size: 20px;
+    }
+
+    #creator h1 {
+        font-size: 30px;
+    }
+}

@@ -1,6 +1,8 @@
-body {
+
+html,body {
     font-family: 'Poppins', sans-serif;
     background-image: url(https://ak.picdn.net/shutterstock/videos/1028814017/thumb/1.jpg?ip=x480);
+    overflow-x: hidden;
 }
 
 .panah {
@@ -76,23 +78,22 @@ body {
 }
 
 #hero p {
+    position: relative;
     color:white;
     font-weight: 500;
     font-family: "poppins";
     font-size: 32px;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
-#hero {
+#hero .container-fluid {
+    height: 80vh;
+    position: relative;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,75,195,1) 47%, rgba(113,5,162,1) 100%);
     margin-bottom: 10%;
     width: 100%;
-}
-
-#hero .container {
-    height: 80vh;
 }
 
 #foot {
@@ -162,4 +163,59 @@ body {
 .panah-bawah:hover {
     opacity: 50%;
     transition: 0.2s; 
+}
+
+@media screen and (max-width : 480px) {
+   .astronot {
+       display: none;
+   }
+
+   .ombak {
+       display: none;
+   }
+
+   #hero p {
+    position: relative;
+    color:white;
+    font-weight: 500;
+    font-family: "poppins";
+    font-size: 130%;
+    text-align: center;
+    padding-top: 20%;
+    }
+
+    #hero .panah-bawah { 
+        size: 10%;
+    }
+
+    #page1 .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 15%;
+
+    }
+
+    .saturn {
+        width: 140%;
+    }
+
+   .planet {
+       width: 70%;
+       margin-left: 10%;
+   }
+
+   .sun {
+       margin-bottom: 10%;
+       width: 90%;
+       margin-top: 10%;
+   }
+
+   #foot {
+       margin-top: 30%;
+   }
+
+   #page1 {
+       padding-top: 10%;
+   }
 }
