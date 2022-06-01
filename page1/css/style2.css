@@ -123,9 +123,17 @@ body {
     z-index: 99;
 }
 
+.astronot:hover {
+    transform: scale(1.2);
+}
+
 
 #page5 .container {
     margin-top: 30%;
+}
+
+#page1 {
+    padding-top: 5%;
 }
 
 #page1 h6 {
@@ -153,6 +161,5 @@ body {
 
 .panah-bawah:hover {
     opacity: 50%;
-    transition: 0.5s;
+    transition: 0.2s; 
 }
-
