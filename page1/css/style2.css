@@ -141,7 +141,10 @@ html,body {
     text-align:center;
     color: white;
     margin-top: 10px;
+}
 
+#page1 {
+    padding-top: 5%;
 }
 
 .nama-planet {
