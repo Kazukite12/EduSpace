@@ -125,7 +125,8 @@ html,body {
 }
 
 .astronot:hover {
-    transform: scale(1.2);
+    transform: perspective(200px) translateZ(50px);
+    transition: 0.6s;
 }
 
 
@@ -145,7 +146,18 @@ html,body {
 
 #page1 {
     padding-top: 5%;
+    
 }
+
+.planet {
+    transition: 2s;
+}
+
+.planet:hover {
+    transform: perspective(200px) translateZ(100px);
+}
+
+
 
 .nama-planet {
     font-size: 35px;
@@ -177,41 +189,37 @@ html,body {
        display: none;
    }
 
+   .planet {
+       width: 250px;
+       height: auto;
+   }
+
    #hero p {
     position: relative;
     color:white;
     font-weight: 500;
     font-family: "poppins";
-    font-size: 130%;
+    font-size: 18px;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 40%;
     }
 
-    #hero .panah-bawah { 
-        size: 10%;
-    }
-
-    #page1 .container {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        margin-top: 15%;
-
+    #hero .panah { 
+        transform: scale(60%);
+        margin-right: 0%;
+        margin-left: 0%;
     }
 
     .saturn {
-        width: 140%;
+        width: 450px;
+        height: auto;  
     }
-
-   .planet {
-       width: 70%;
-       margin-left: 10%;
-   }
 
    .sun {
        margin-bottom: 10%;
-       width: 90%;
+       width: 450px;
        margin-top: 10%;
+       padding-right: 80px;
    }
 
    #foot {
