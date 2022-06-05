@@ -97,5 +97,11 @@ body {
         padding-top: 30%;
     }
 
+    @media screen and (max-height : 790px) {
+        .banner p {
+            font-size: 23px;
+        }
+
     
+    }
 }

@@ -45,9 +45,15 @@ body {
 @media screen and (max-width : 480px) {
     #creator p {
         font-size: 20px;
+        text-align: justify;
     }
 
     #creator h1 {
         font-size: 30px;
     }
+}
+
+@media screen and (max-height : 745px) {
+
+
 }
