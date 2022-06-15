@@ -86,7 +86,6 @@ html,body {
 }
 
 #hero p {
-    position: relative;
     color:white;
     font-weight: 500;
     font-family: "poppins";
@@ -253,13 +252,12 @@ html,body {
    }
 
    #hero p {
-    position: relative;
     color:white;
     font-weight: 500;
     font-family: "poppins";
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    padding-top: 40%;
+    margin-top: 30%;
     }
 
     #hero .panah-bawah { 
@@ -275,7 +273,7 @@ html,body {
 
    .sun {
        margin-bottom: 10%;
-       width: 350px;
+       width: 480px;
        margin-top: 10%;
    }
 
@@ -294,12 +292,7 @@ html,body {
 }
 
 @media screen and (max-height : 745px) {
-    #hero p {
-        font-size: 18px;
-        padding-top: 30%;
-        margin-bottom: 0%;
-        }
-    
+
     #hero .container-fluid {
         height: 100vh;
     }
